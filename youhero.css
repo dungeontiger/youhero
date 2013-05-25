@@ -1,0 +1,240 @@
+body
+{
+	background-color: white;
+	font-family: Georgia, "Times New Roman",Times;
+	
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+div.title
+{
+	font-size: 48pt;
+	text-align: center;
+	padding-left: 50px;
+	padding-right:50px
+}
+
+div.subTitle
+{
+	font-size:16pt;
+	padding-top:10px;
+	padding-bottom:10px;
+}
+
+div.alert
+{
+	color:red;
+	font-size:12pt;
+	padding-bottom:10px;
+}
+
+div.mainFrame
+{
+	padding-left: 50px
+}
+
+div.banner
+{
+	text-align:center;
+}
+
+table.topMenuBar
+{
+	width:100%;
+}
+
+td.spacer
+{
+	width:100%;
+}
+
+div.topSpace
+{
+	padding-top:20px;
+}
+
+input.error
+{
+	background-color:#FF9966;
+}
+
+label.error
+{
+	color:black;
+	background-color:#FF9966;
+	border:1px dashed red;
+	font-size:10pt;
+	padding:1px;
+}
+
+img.bookIcon
+{
+	height:40px;
+	width:40px;
+}
+
+textarea.bookDescription
+{
+	height:200px;
+	width:400px;
+	resize:none;
+}
+
+input.bookTitle
+{
+	width:400px;
+}
+
+input.bookShortDescription
+{
+	width:400px;
+}
+
+div.debugConsole
+{
+	background-color:black;
+	color:#FFBF00;
+	font-family:courier;
+	font-size:10pt;
+	border:solid white 1px;
+	padding:5px;
+	font-weight:bold;
+}
+
+.label, a
+{
+	color:#666666;
+	font-family: arial;
+	font-size: 10pt;
+}
+
+a:hover
+{
+	color: #920f0f;
+}
+
+a:active
+{
+	color: #f81818;
+}
+
+div.login
+{
+	border: solid silver 1px;
+	background-color:silver;
+	
+	margin-top: 30px;
+	width:300px;
+	padding-top:20px;
+	padding-right:20px;
+	padding-left:20px;
+	
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f5f5f5', endColorstr='#d3d3d3'); /* for IE */
+	background: -webkit-gradient(linear, left top, left bottom, from(#f5f5f5), to(#d3d3d3)); /* for webkit browsers */
+	background: -moz-linear-gradient(top,  #f5f5f5,  #d3d3d3); /* for firefox 3.6+ */ 	
+
+	-moz-border-radius: 20px;
+	-webkit-border-radius: 20px;
+	-khtml-border-radius: 20px;
+	border-radius: 20px;
+	
+	-moz-box-shadow: 5px 5px 3px 1px #999;
+	-webkit-box-shadow: 5px 5px 3px 1px #999;	
+}
+
+span.button
+{
+	border: solid 1px gray;
+	cursor:pointer;
+	
+	color:#62222;
+	
+	padding-top:5px;
+	padding-bottom:5px;
+	padding-left:10px;
+	padding-right:10px;
+	
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f5f5f5', endColorstr='#d3d3d3'); /* for IE */
+	background: -webkit-gradient(linear, left top, left bottom, from(#f5f5f5), to(#d3d3d3)); /* for webkit browsers */
+	background: -moz-linear-gradient(top,  #f5f5f5,  #d3d3d3); /* for firefox 3.6+ */ 	
+
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	-khtml-border-radius: 2px;
+	border-radius: 2px;
+	
+	-moz-box-shadow: 1px 1px 1px 1px #999;
+	-webkit-box-shadow: 1px 1px 1px 1px #999;
+}
+
+span.button:hover
+{
+	color:black;
+	border: solid black 1px;
+}
+
+span.button:active
+{
+	color:red;
+	border: solid red 1px;
+}
+
+input.singleLineText
+{
+	height:30px;
+	font-size:12pt;
+}
+
+div.buttonBar
+{
+	margin-top:25px;
+	margin-bottom:25px;
+}
+
+div.nextLabel
+{
+	padding-top:15px;
+}
+
+div.footer
+{
+	border-top: solid 1px #797979;
+	margin-top:20px;
+	
+	color: #797979;
+	font-size:10pt;
+	
+	height: 100px;
+	text-align:right;
+	font-family:arial;
+}
+
+div.separator
+{
+	border-top: solid 1px #797979;
+	padding-bottom:10px
+}
+
+td.discussion
+{
+	vertical-align:top;
+	font-size: 16pt;
+	padding-top:40px;
+	padding-left:20px;
+}
+
+.rightAlign
+{
+	text-align:right;
+	width: 100%
+}
+
+.nowrap
+{
+	white-space:nowrap;
+}
